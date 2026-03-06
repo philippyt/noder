@@ -1,6 +1,6 @@
 {
   "name": "noder-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP-server for norske bedriftsdata fra Brreg",
   "type": "module",
   "main": "./dist/index.js",
@@ -22,7 +22,9 @@
     "claude",
     "cursor"
   ],
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   },
