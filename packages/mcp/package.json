@@ -22,6 +22,10 @@
     "claude",
     "cursor"
   ],
+  "files": ["dist"],
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "dependencies": {
     "@noder/core": "*",
