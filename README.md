@@ -6,6 +6,15 @@ Utforsk norske selskapsnettverk visuelt. Åpen kildekode.
 
  **MCP:** `npx noder-mcp`
 
+## MCP i praksis
+
+Spør Claude Code:
+> Bygg en graf med Equinor og alle deres datterselskaper, vis felles styreledere
+
+Eksempel output: 
+
+![Equinor nettverk bygget av Claude via noder-mcp](eq.png)
+
 ## Arkitektur
 
 npm workspaces monorepo med tre pakker:

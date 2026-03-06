@@ -5,3 +5,4 @@ build/
 .vercel/
 *.tsbuildinfo
 .vscode/
+eq.png
