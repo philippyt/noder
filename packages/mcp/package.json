@@ -1,0 +1,34 @@
+{
+  "name": "noder-mcp",
+  "version": "1.0.0",
+  "description": "MCP-server for norske bedriftsdata fra Brreg",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "noder-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "norway",
+    "brreg",
+    "norwegian",
+    "business-registry",
+    "regnskap",
+    "claude",
+    "cursor"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@noder/core": "*",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.3"
+  }
+}

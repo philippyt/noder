@@ -1,0 +1,16 @@
+{
+  "name": "noder",
+  "private": true,
+  "workspaces": [
+    "packages/core",
+    "packages/mcp",
+    "packages/web",
+    "packages/worker"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w packages/web"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
